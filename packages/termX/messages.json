@@ -1,0 +1,19 @@
+{
+    "install": "messages/message.md",
+    "1.4.0": "messages/1.4.0.md",
+    "1.4.1": "messages/1.4.1.md",
+    "1.4.2": "messages/1.4.2.md",
+    "1.4.7": "messages/1.4.7.md",
+    "1.4.8": "messages/1.4.8.md",
+    "1.4.10": "messages/1.4.10.md",
+    "2.0.0": "messages/2.0.0.md",
+    "2.0.1": "messages/2.0.1.md",
+    "3.0.0": "messages/3.0.0.md",
+    "3.0.1": "messages/3.0.1.md",
+    "4.0.0": "messages/4.0.0.md",
+    "4.0.1": "messages/4.0.1.md",
+    "4.0.2": "messages/4.0.2.md",
+    "5.0.0": "messages/5.0.0.md",
+    "5.0.1": "messages/5.0.1.md",
+    "5.0.2": "messages/5.0.2.md"
+}

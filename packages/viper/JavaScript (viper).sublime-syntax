@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+name: JavaScript(viper)
+file_extensions: [tpl, vp]
+scope: source.tpl
+
+contexts:
+  main:
+    - match: ""
+      push: "Packages/JavaScript/JavaScript.sublime-syntax"
+      with_prototype:
+        - match: (?={{#\s*([\w$]+[Ss]tyle)\s*(\([^)]*\)|)\s*}})
+          push: "Packages/CSS/CSS.sublime-syntax"
+          with_prototype:
+            - match: (?={{#}})
+              pop: true
+        - match: (?={{#\s*([\w$]+)\s*(\([^)]*\)|)\s*}})
+          push: "Packages/HTML/HTML.sublime-syntax"
+          with_prototype:
+            - match: (?={{#}})
+              pop: true

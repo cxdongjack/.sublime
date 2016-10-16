@@ -1,0 +1,4 @@
+[
+    { "keys": ["ctrl+super+t"], "command": "open_termx_terminal_project" },
+    { "keys": ["ctrl+option+super+t"], "command": "open_termx_terminal" },
+]
