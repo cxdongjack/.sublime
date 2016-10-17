@@ -18,7 +18,11 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/
 # 准备包管理器
 cd Installed\ Packages/
 
-! [[ -f 'Package Control.sublime-package' ]] && cp $sublime_abs/Package\ Control.sublime-package .
+# 首次安装的时候，会把配置文件清空，因此此处休眠1s, 等待初始化完成
+! [[ -f 'Package Control.sublime-package' ]] \
+    && /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl \
+    && cp $sublime_abs/Package\ Control.sublime-package . \
+    && sleep 1
 
 # 准备配置文件
 cd ../Packages/
@@ -29,3 +33,5 @@ do
     rm -rf $basename
     ln -s $pkg $basename
 done
+
+echo '配置完成，请重新启动sublime'
