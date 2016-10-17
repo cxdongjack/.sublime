@@ -5,8 +5,8 @@
 	],
 	"installed_packages":
 	[
-		"Package Control",
 		"All Autocomplete",
+		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint"
 	],

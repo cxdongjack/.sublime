@@ -18,7 +18,7 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/
 # 准备包管理器
 cd Installed\ Packages/
 
-#! [[ -f 'Package Control.sublime-package' ]] && cp $sublime_abs/Package\ Control.sublime-package .
+! [[ -f 'Package Control.sublime-package' ]] && cp $sublime_abs/Package\ Control.sublime-package .
 
 # 准备配置文件
 cd ../Packages/
