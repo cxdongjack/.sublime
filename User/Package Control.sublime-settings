@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint"
+	],
+	"repositories":
+	[
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
+	]
+}

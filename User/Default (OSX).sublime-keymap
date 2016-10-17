@@ -1,0 +1,39 @@
+[
+    { "keys": ["ctrl+s"], "command": "save" },
+    { "keys": [",", "w"], "command": "save",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": true },
+        ]
+    },
+    { "keys": [",", "v", "g"], "command": "open_termx_terminal_project",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": true },
+        ]
+    },
+    { "keys": [",", "v", "c"], "command": "open_termx_terminal",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": true },
+        ]
+    },
+    { "keys": ["g", "t"], "command": "goto_definition",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": true },
+        ]
+    },
+    { "keys": ["j", "k"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+    { "keys": ["ctrl+super+0"], "command": "focus_side_bar" },
+
+    {"keys": ["ctrl+j"], "command": "run_macro_file", "args": {"file": "Packages/User/duokan-code-emphsis.sublime-macro"}},
+    {"keys": ["ctrl+j"], "command": "run_macro_file", "args": {"file": "Packages/User/duokan-code-emphsis.sublime-macro"}},
+]
