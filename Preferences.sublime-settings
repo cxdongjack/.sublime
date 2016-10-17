@@ -1,12 +1,11 @@
 {
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"draw_white_space": "all",
 	"font_size": 16,
-	"ignored_packages":
-	[
-	],
+	"ignored_packages": [],
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true
-
 }
+
