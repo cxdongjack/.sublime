@@ -1,5 +1,8 @@
 [
     { "keys": ["ctrl+s"], "command": "save" },
+    { "keys": ["ctrl+]"], "command": "goto_definition" },
+    { "keys": ["ctrl+o"], "command": "jump_back" },
+    { "keys": ["ctrl+i"], "command": "jump_forward" },
     { "keys": [",", "w"], "command": "save",
         "context":
         [
