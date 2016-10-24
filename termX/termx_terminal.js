@@ -14,7 +14,7 @@ function run(argv) {
     if(!frontmostTerminalWindow) {
         Terminal.activate();
         // delay(1);
-        delay(0.1);
+        delay(0.2);
     }
 
     // SystemEvents.keystroke(
