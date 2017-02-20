@@ -1,4 +1,26 @@
 {
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/Users/chenxiaodong/duokan/fe/app-active/.viper_modules/**",
+		"/Users/chenxiaodong/duokan/fe/app-active/node_modules/**",
+		"/Users/chenxiaodong/duokan/fe/app-index/node_modules/**",
+		"/Users/chenxiaodong/duokan/fe/app-universal-link/.viper_modules/**",
+		"/Users/chenxiaodong/duokan/fe/app-universal-link/node_modules/**",
+		"/Users/chenxiaodong/duokan/phone-v3/node_modules/**"
+	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"draw_white_space": "all",
 	"font_size": 15,

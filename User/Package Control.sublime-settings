@@ -6,10 +6,14 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Babel",
+		"HTML-CSS-JS Prettify",
 		"Jedi - Python autocompletion",
 		"Package Control",
+		"Pretty JSON",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint"
+		"SublimeLinter-contrib-eslint",
+		"Vue Syntax Highlight"
 	],
 	"repositories":
 	[
